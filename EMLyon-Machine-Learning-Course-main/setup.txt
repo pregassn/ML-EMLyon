@@ -1,0 +1,21 @@
+1) create a new conda virtual environment 
+with all python libs settings as specified in 
+the environment-cpu.yml file, by executing at 
+the command line: 
+conda env create -f environment-cpu.yml
+
+2) activate this new environment, execute: 
+conda activate fastai-cpu-v0.7
+
+(to remove an existing environment, execute : 
+conda remove --name fastai-cpu-v0.7 --all)
+
+3) launch your jupyter notebook within this new environment, 
+execute: jupyter notebook
+
+For this Machine Learning Course the dataset we consider is the bluebook for bulldozers 
+competition: https://www.kaggle.com/c/bluebook-for-bulldozers/overview
+You can download the Train.zip data file here: 
+https://www.kaggle.com/c/bluebook-for-bulldozers/data, 
+and move unzip your file in the subfolder 
+data/bulldozers
